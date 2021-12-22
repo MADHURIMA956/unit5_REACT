@@ -6,7 +6,7 @@ module.exports = {
         path : path.join(__dirname, 'build'), // folder name
         filename : 'bundle.js',
     } ,
-   mode : 'production' ,   // development or production
+   mode : 'development' ,   // development or production
     module : {
         rules: [
             {
