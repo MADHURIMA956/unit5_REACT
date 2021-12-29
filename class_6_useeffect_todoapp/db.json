@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "toso",
+      "status": false,
+      "id": 1
+    },
+    {
+      "title": "apple",
+      "status": false,
+      "id": 2
+    },
+    {
+        "title": "react",
+        "status": false,
+        "id": 2
+      }
+  ]
+}
