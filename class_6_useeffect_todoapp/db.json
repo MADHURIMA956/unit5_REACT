@@ -11,9 +11,19 @@
       "id": 2
     },
     {
-        "title": "react",
-        "status": false,
-        "id": 2
-      }
+      "title": "react",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "git",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "github",
+      "status": false,
+      "id": 4
+    }
   ]
 }
