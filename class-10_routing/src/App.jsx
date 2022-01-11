@@ -6,6 +6,8 @@ import { Contact } from "./components/Contact.jsx";
 import { Navbar } from "./components/Navbar.jsx";
 import { Product } from "./components/Products.jsx";
 import { Users } from "./components/Users.jsx";
+import { Login } from "./components/Login.jsx";
+
 import { UserDetails } from "./components/UserDetails.jsx";
 import { Route , Routes } from "react-router-dom";
 
@@ -19,7 +21,9 @@ function App() {
         <Route path='/contactus' element={<Contact />}></Route>
         <Route path='/product/:id' element={<Product />}></Route>
         <Route path='/user' element={<Users />}></Route>
-        <Route path='/user/:userid' element={<UserDetails />}></Route>
+        <Route path='/login' element={<Login />}></Route>
+
+        <Route path='/users/:userid' element={<UserDetails />}></Route>
         <Route path='*' element={<div> <h1>404 Page Not Found</h1></div>}></Route>
 
       </Routes>

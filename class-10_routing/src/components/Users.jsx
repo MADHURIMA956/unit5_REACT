@@ -8,7 +8,7 @@ export const Users = () => {
             <br />
             {[1,2,3,4].map((e,i) =>(
                 <div key={i} style={{margin:"10px"}}>
-                    <Link to={`/user/${e}`}> User {e} </Link>
+                    <Link to={`/users/${e}`}> User {e} </Link>
                     </div>
             ))}
         </div>
